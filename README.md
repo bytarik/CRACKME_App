@@ -1,1 +1,1 @@
-Örnek CrackME App for Frida 
+Example CrackME App for Frida 
