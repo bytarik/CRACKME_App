@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SECURE GATE"
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/et_key"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/transparent"
+        android:hint="Enter Access Key..."
+        android:textColorHint="#555555"
+        android:textColor="#FFFFFF"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:drawableBottom="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_unlock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="AUTHENTICATE"
+        android:backgroundTint="#1B5E20"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:letterSpacing="0.1" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="System: Locked"
+        android:textColor="#FF5252"
+        android:fontFamily="monospace" />
+
+</LinearLayout>

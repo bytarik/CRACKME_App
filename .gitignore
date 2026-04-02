@@ -1,0 +1,6 @@
+/build
+proguard-rules.pro
+build.gradle.kts
+/src/androidTest
+/src/test
+.DS_Store

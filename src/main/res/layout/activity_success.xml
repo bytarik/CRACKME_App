@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✓"
+            android:textColor="#00FF00"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[ ACCESS GRANTED ]"
+            android:textColor="#00FF00"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Zayotem Güvenlik Katmanı Geçildi.\nSistem Yetkileri Alındı."
+            android:textAlignment="center"
+            android:textColor="#00FF00"
+            android:textSize="16sp"
+            android:fontFamily="monospace" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="#00FF00"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1B5E20"
+            android:text="GÜVENLİ ÇIKIŞ"
+            android:textColor="#FFFFFF"
+            android:fontFamily="monospace" />
+
+    </LinearLayout>
+</RelativeLayout>
